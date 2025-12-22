@@ -21,9 +21,9 @@ def qr_descomposicion_gram_schmidt(A):
 A = np.array([[5.0, 1.0, 4.0],
               [3.0, 1.0, 1.0],
               [0.0, 1.0, 1.0]])
-
-Q, R = qr_descomposicion_gram_schmidt(A)
-
+B=np.random.rand(5,5)
+Q, R = qr_descomposicion_gram_schmidt(B)
+print("QR-B",Q@R-B)
 print("Matriz Q (ortonormal):")
 print(Q)
 print("\nMatriz R (triangular superior):")

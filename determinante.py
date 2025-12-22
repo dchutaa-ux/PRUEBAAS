@@ -29,9 +29,9 @@ def determinante_por_gauss(A):
     return det
 
 # Ejemplo
-M = np.array([[5, 1, 2, 0],
-              [0, 1, -1, 2],
-              [0, 0, 5, 2],
-              [-1, -3, 0, 1]])
+M = np.array([[1, -1, 2, 3],
+              [2, 1, 0, 1],
+              [3, -1, 1, 2],
+              [2, -1, 0, 1]])
 
 print("Determinante por Gauss:", determinante_por_gauss(M))

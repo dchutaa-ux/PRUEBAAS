@@ -25,8 +25,10 @@ def inversa_por_gauss(A):
     return A_inv
 
 # Ejemplo
-A = np.array([[2, 1,5],
-              [5, 3,8]])
+A = np.array([[1, 1, 0, 0],
+              [0, -1, -2, 0],
+              [0, 0, 1, -1],
+              [0, 0, 0, 1]])
 
 A_inv = inversa_por_gauss(A)
 print("Matriz inversa:")
